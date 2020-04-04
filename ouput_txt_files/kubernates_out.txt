@@ -1,3 +1,13 @@
+Prediction -
+-----------------------------------------------------------------------------------------------------------------------------------------
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+-------------------------------------------------------------------------------------------------------------------------------------------
+Main Terminal -
 (.devops) vikas@Desktop:~/DevOps_Microservices/project-ml-microservice-kubernetes$ sudo ./run_kubernetes.sh
 NAME                            READY   STATUS    RESTARTS   AGE
 mlimage                         1/1     Running   1          10h
@@ -5,3 +15,4 @@ mlimage-28fffdd3a119-vvnzf      1/1     Running   1          11h
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
+-------------------------------------------------------------------------------------------------------------------------------------------
